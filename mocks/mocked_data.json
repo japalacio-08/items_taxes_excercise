@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "items": [
+        { "name": "book", "price": 12.49, "quantity": 2, "imported": false, "exempt": true },
+        { "name": "music CD", "price": 14.99, "quantity": 1, "imported": false, "exempt": false },
+        { "name": "chocolate bar", "price": 0.85, "quantity": 1, "imported": false, "exempt": true }
+      ]
+    },
+    {
+      "items": [
+        { "name": "imported box of chocolates", "price": 10.0, "quantity": 1, "imported": true, "exempt": true },
+        { "name": "imported bottle of perfume", "price": 47.5, "quantity": 1, "imported": true, "exempt": false }
+      ]
+    },
+    {
+      "items": [
+        { "name": "imported bottle of perfume", "price": 27.99, "quantity": 1, "imported": true, "exempt": false },
+        { "name": "bottle of perfume", "price": 18.99, "quantity": 1, "imported": false, "exempt": false },
+        { "name": "packet of headache pills", "price": 9.75, "quantity": 1, "imported": false, "exempt": true },
+        { "name": "imported boxes of chocolates", "price": 11.25, "quantity": 3, "imported": true, "exempt": true }
+      ]
+    }
+  ]
+}
