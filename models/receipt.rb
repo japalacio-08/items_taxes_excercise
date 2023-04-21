@@ -13,15 +13,11 @@ class Receipt
   end
 
   def calculate_total_sales_tax
-    total_tax = 0
-    items.each { |item| total_tax += item.total_sales_tax }
-    total_tax
+    items.reduce(0) { |acc, current| acc + current.total_sales_tax }
   end
 
   def calculate_total_price
-    total_price = 0
-    items.each { |item| total_price += item.total_price }
-    total_price
+    items.reduce(0) { |acc, current| acc + current.total_price }
   end
 
   def to_s
